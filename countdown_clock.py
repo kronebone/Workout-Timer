@@ -320,6 +320,6 @@ class RestTimer:
         except KeyboardInterrupt:
             self.device.cleanup()
 
-
-rt = RestTimer()
-rt.menu()
+if __name__ == '__main__':
+    rt = RestTimer()
+    rt.menu()
